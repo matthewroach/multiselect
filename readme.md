@@ -10,8 +10,9 @@ A jQuery plugin for multi-select boxes
 The jQuery library should already be imported on the page (developed with 1.7.2).
 
 The following files must also be imported on the page:
-aw20.multiselect.min.js 		The plugin workings (minified)
-aw20.multiselect.css 			Basic styling for plugin
+
+aw20.multiselect.min.js 		The plugin workings (minified)  
+aw20.multiselect.css 			Basic styling for plugin  
 img/cross.png 					The img for the pill close
 
 
