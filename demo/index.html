@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Multi Select (aw2.0)</title>
+
+    <link rel="stylesheet" type="text/css" href="../src/aw20.multiselect.css" />
+    <link rel="stylesheet" type="text/css" href="demo.css" />
+	
+</head>
+<body>
+
+
+	<h2>Multi Select Example</h2>
+
+    	<p>
+    		A demo of the multi select plugin
+    	</p>
+
+    <div class="orig">
+      <p>
+        Turns this multi-select box
+      </p>
+
+      <select id="countries-orig" multiple="true">
+        <option value="">== All ==</option>
+        <option value="1303">Afghanistan</option>
+        <option value="1304">Aland Islands</option>
+        <option value="1001">Albania</option>
+        <option value="1002">Algeria</option>
+        <option value="1305">American Samoa</option>
+        <option value="1003">Andorra</option>
+        <option value="1004">Angola</option>
+        <option value="1306">Anguilla</option>
+        <option value="1307">Antarctica</option>
+        <option value="1005">Antigua and Barbuda</option>
+        <option value="1006">Argentina</option>
+        <option value="1007">Armenia</option>
+        <option value="1308">Aruba</option>
+        <option value="1309">Asia/Pacific Region</option>
+        <option value="1008">Australia</option>
+        <option value="1009">Austria</option>
+        <option value="1010">Azerbaijan</option>
+        <option value="1012">Bahamas</option>
+        <option value="1013">Bahrain</option>
+        <option value="1014">Bangladesh</option>
+        <option value="1015">Barbados</option>
+        <option value="1016">Belarus</option>
+        <option value="1017">Belgium</option>
+        <option value="1018">Belize</option>
+        <option value="1019">Benin</option>
+        <option value="1310">Bermuda</option>
+        <option value="1020">Bhutan</option>
+        <option value="1021">Bolivia</option>
+        <option value="1022">Bosnia and Herzegovina</option>
+        <option value="1023">Botswana</option>
+        <option value="1311">Bouvet Island</option>
+        <option value="1024">Brazil</option>
+        <option value="1312">British Indian Ocean Territory</option>
+        <option value="1025">Brunei Darussalam</option>
+        <option value="1026">Bulgaria</option>
+        <option value="1027">Burkina Faso</option>
+        <option value="1028">Burundi</option>
+        <option value="1030">Cambodia</option>
+        <option value="1031">Cameroon</option>
+        <option value="1032">Canada</option>
+        <option value="1033">Cape Verde</option>
+        <option value="1313">Cayman Islands</option>
+        <option value="1034">Central African Republic</option>
+        <option value="1035">Chad</option>
+        <option value="1036">Chile</option>
+        <option value="1037">China</option>
+        <option value="1039">Colombia</option>
+        <option value="1040">Comoros</option>
+        <option value="1041">Congo</option>
+        <option value="1314">Congo, The Democratic Republic of the</option>
+        <option value="1315">Cook Islands</option>
+        <option value="1043">Costa Rica</option>
+        <option value="1044">Cote dIvoire</option>
+        <option value="1045">Croatia</option>
+        <option value="1046">Cuba</option>
+        <option value="1047">Cyprus</option>
+        <option value="1048">Czech Republic</option>
+        <option value="1050">Denmark</option>
+        <option value="1051">Djibouti</option>
+        <option value="1052">Dominica</option>
+        <option value="1053">Dominican Republic</option>
+        <option value="1055">East Timor</option>
+        <option value="1056">Ecuador</option>
+        <option value="1057">Egypt</option>
+        <option value="1058">El Salvador</option>
+        <option value="1059">Equatorial Guinea</option>
+        <option value="1060">Eritrea</option>
+        <option value="1061">Estonia</option>
+        <option value="1062">Ethiopia</option>
+        <option value="1301">European Union</option>
+        <option value="1316">Falkland Islands (Malvinas)</option>
+        <option value="1317">Faroe Islands</option>
+        <option value="1064">Fiji</option>
+        <option value="1065">Finland</option>
+        <option value="1066">France</option>
+        <option value="1318">French Guiana</option>
+        <option value="1319">French Polynesia</option>
+        <option value="1068">Gabon</option>
+        <option value="1069">Gambia</option>
+        <option value="1070">Georgia</option>
+        <option value="1071">Germany</option>
+        <option value="1072">Ghana</option>
+        <option value="1320">Gibraltar</option>
+        <option value="1073">Greece</option>
+        <option value="1321">Greenland</option>
+        <option value="1074">Grenada</option>
+        <option value="1322">Guadeloupe</option>
+        <option value="1323">Guam</option>
+        <option value="1075">Guatemala</option>
+        <option value="1324">Guernsey</option>
+        <option value="1076">Guinea</option>
+        <option value="1077">Guinea-Bissau</option>
+        <option value="1078">Guyana</option>
+        <option value="1080">Haiti</option>
+        <option value="1325">Heard Island and McDonald Islands</option>
+        <option value="1213">Holy See (Vatican City State)</option>
+        <option value="1081">Honduras</option>
+        <option value="1300">Hong Kong</option>
+        <option value="1082">Hungary</option>
+        <option value="1084">Iceland</option>
+        <option value="1085">India</option>
+        <option value="1086">Indonesia</option>
+        <option value="1087">Iran, Islamic Republic of</option>
+        <option value="1088">Iraq</option>
+        <option value="1089">Ireland</option>
+        <option value="1326">Isle of Man</option>
+        <option value="1090">Israel</option>
+        <option value="1091">Italy</option>
+        <option value="1093">Jamaica</option>
+        <option value="1094">Japan</option>
+        <option value="1327">Jersey</option>
+        <option value="1095">Jordan</option>
+        <option value="1097">Kazakhstan</option>
+        <option value="1098">Kenya</option>
+        <option value="1099">Kiribati</option>
+        <option value="1100">Korea, Democratic People's Republic of</option>
+        <option value="1101">Korea, Republic of</option>
+        <option value="1102">Kuwait</option>
+        <option value="1103">Kyrgyzstan</option>
+        <option value="1105">Laos</option>
+        <option value="1106">Latvia</option>
+        <option value="1107">Lebanon</option>
+        <option value="1108">Lesotho</option>
+        <option value="1109">Liberia</option>
+        <option value="1110">Libyan Arab Jamahiriya</option>
+        <option value="1111">Liechtenstein</option>
+        <option value="1112">Lithuania</option>
+        <option value="1113">Luxembourg</option>
+        <option value="1328">Macau</option>
+        <option value="1115">Macedonia</option>
+        <option value="1116">Madagascar</option>
+        <option value="1117">Malawi</option>
+        <option value="1118">Malaysia</option>
+        <option value="1119">Maldives</option>
+        <option value="1120">Mali</option>
+        <option value="1121">Malta</option>
+        <option value="1122">Marshall Islands</option>
+        <option value="1329">Martinique</option>
+        <option value="1123">Mauritania</option>
+        <option value="1124">Mauritius</option>
+        <option value="1330">Mayotte</option>
+        <option value="1125">Mexico</option>
+        <option value="1126">Micronesia, Federated States of</option>
+        <option value="1127">Moldova, Republic of</option>
+        <option value="1128">Monaco</option>
+        <option value="1129">Mongolia</option>
+        <option value="1331">Montenegro</option>
+        <option value="1332">Montserrat</option>
+        <option value="1130">Morocco</option>
+        <option value="1131">Mozambique</option>
+        <option value="1132">Myanmar</option>
+        <option value="1134">Namibia</option>
+        <option value="1135">Nauru</option>
+        <option value="1136">Nepal</option>
+        <option value="1137">Netherlands</option>
+        <option value="1333">Netherlands Antilles</option>
+        <option value="1334">New Caledonia</option>
+        <option value="1139">New Zealand</option>
+        <option value="1140">Nicaragua</option>
+        <option value="1141">Niger</option>
+        <option value="1142">Nigeria</option>
+        <option value="1335">Niue</option>
+        <option value="1336">Norfolk Island</option>
+        <option value="1337">Northern Mariana Islands</option>
+        <option value="1143">Norway</option>
+        <option value="1145">Oman</option>
+        <option value="1147">Pakistan</option>
+        <option value="1148">Palau</option>
+        <option value="1338">Palestinian Territory, Occupied</option>
+        <option value="1339">Panama</option>
+        <option value="1149">Panama</option>
+        <option value="1150">Papua New Guinea</option>
+        <option value="1151">Paraguay</option>
+        <option value="1152">Peru</option>
+        <option value="1153">Philippines</option>
+        <option value="1154">Poland</option>
+        <option value="1155">Portugal</option>
+        <option value="1340">Puerto Rico</option>
+        <option value="1157">Qatar</option>
+        <option value="1341">Reunion</option>
+        <option value="1159">Romania</option>
+        <option value="1160">Russian Federation</option>
+        <option value="1161">Rwanda</option>
+        <option value="1168">S?o Tom? and Pr?ncipe</option>
+        <option value="1163">Saint Kitts and Nevis</option>
+        <option value="1164">Saint Lucia</option>
+        <option value="1342">Saint Pierre and Miquelon</option>
+        <option value="1165">Saint Vincent and the Grenadines</option>
+        <option value="1166">Samoa</option>
+        <option value="1167">San Marino</option>
+        <option value="1169">Saudi Arabia</option>
+        <option value="1170">Senegal</option>
+        <option value="1302">Serbia</option>
+        <option value="1171">Serbia and Montenegro</option>
+        <option value="1172">Seychelles</option>
+        <option value="1173">Sierra Leone</option>
+        <option value="1174">Singapore</option>
+        <option value="1175">Slovakia</option>
+        <option value="1176">Slovenia</option>
+        <option value="1177">Solomon Islands</option>
+        <option value="1178">Somalia</option>
+        <option value="1179">South Africa</option>
+        <option value="1181">Spain</option>
+        <option value="1182">Sri Lanka</option>
+        <option value="1183">Sudan</option>
+        <option value="1184">Suriname</option>
+        <option value="1185">Swaziland</option>
+        <option value="1186">Sweden</option>
+        <option value="1187">Switzerland</option>
+        <option value="1188">Syrian Arab Republic</option>
+        <option value="1190">Taiwan</option>
+        <option value="1193">Tajikistan</option>
+        <option value="1194">Tanzania, United Republic of</option>
+        <option value="1195">Thailand</option>
+        <option value="1196">Togo</option>
+        <option value="1343">Tokelau</option>
+        <option value="1197">Tonga</option>
+        <option value="1198">Trinidad and Tobago</option>
+        <option value="1199">Tunisia</option>
+        <option value="1200">Turkey</option>
+        <option value="1201">Turkmenistan</option>
+        <option value="1344">Turks and Caicos Islands</option>
+        <option value="1202">Tuvalu</option>
+        <option value="1204">Uganda</option>
+        <option value="1205">Ukraine</option>
+        <option value="1206">United Arab Emirates</option>
+        <option value="1207">United Kingdom</option>
+        <option value="1208">United States</option>
+        <option value="1345">United States Minor Outlying Islands</option>
+        <option value="1221">Unknown</option>
+        <option value="1349">Unknown country</option>
+        <option value="1209">Uruguay</option>
+        <option value="1210">Uzbekistan</option>
+        <option value="1212">Vanuatu</option>
+        <option value="1214">Venezuela</option>
+        <option value="1215">Vietnam</option>
+        <option value="1346">Virgin Islands, British</option>
+        <option value="1347">Virgin Islands, U.S.</option>
+        <option value="1348">Wallis and Futuna</option>
+        <option value="1217">Yemen</option>
+        <option value="1219">Zambia</option>
+        <option value="1220">Zimbabwe</option>
+      </select>
+    </div>
+
+
+    <div class="plugin">
+
+      <p>
+        Into an input with filter options
+      </p>
+
+			<select id="countries" multiple="true">
+  			<option value="">== All ==</option>
+        <option value="1303" selected="selected">Afghanistan</option>
+        <option value="1304">Aland Islands</option>
+        <option value="1001">Albania</option>
+        <option value="1002">Algeria</option>
+        <option value="1305">American Samoa</option>
+        <option value="1003">Andorra</option>
+        <option value="1004">Angola</option>
+        <option value="1306">Anguilla</option>
+        <option value="1307">Antarctica</option>
+        <option value="1005">Antigua and Barbuda</option>
+        <option value="1006">Argentina</option>
+        <option value="1007">Armenia</option>
+        <option value="1308">Aruba</option>
+        <option value="1309">Asia/Pacific Region</option>
+        <option value="1008">Australia</option>
+        <option value="1009">Austria</option>
+        <option value="1010">Azerbaijan</option>
+        <option value="1012">Bahamas</option>
+        <option value="1013">Bahrain</option>
+        <option value="1014">Bangladesh</option>
+        <option value="1015">Barbados</option>
+        <option value="1016">Belarus</option>
+        <option value="1017">Belgium</option>
+        <option value="1018">Belize</option>
+        <option value="1019">Benin</option>
+        <option value="1310">Bermuda</option>
+        <option value="1020">Bhutan</option>
+        <option value="1021">Bolivia</option>
+        <option value="1022">Bosnia and Herzegovina</option>
+        <option value="1023">Botswana</option>
+        <option value="1311">Bouvet Island</option>
+        <option value="1024">Brazil</option>
+        <option value="1312">British Indian Ocean Territory</option>
+        <option value="1025">Brunei Darussalam</option>
+        <option value="1026">Bulgaria</option>
+        <option value="1027">Burkina Faso</option>
+        <option value="1028">Burundi</option>
+        <option value="1030">Cambodia</option>
+        <option value="1031">Cameroon</option>
+        <option value="1032">Canada</option>
+        <option value="1033">Cape Verde</option>
+        <option value="1313">Cayman Islands</option>
+        <option value="1034">Central African Republic</option>
+        <option value="1035">Chad</option>
+        <option value="1036">Chile</option>
+        <option value="1037">China</option>
+        <option value="1039">Colombia</option>
+        <option value="1040">Comoros</option>
+        <option value="1041">Congo</option>
+        <option value="1314">Congo, The Democratic Republic of the</option>
+        <option value="1315">Cook Islands</option>
+        <option value="1043">Costa Rica</option>
+        <option value="1044">Cote dIvoire</option>
+        <option value="1045">Croatia</option>
+        <option value="1046">Cuba</option>
+        <option value="1047">Cyprus</option>
+        <option value="1048">Czech Republic</option>
+        <option value="1050">Denmark</option>
+        <option value="1051">Djibouti</option>
+        <option value="1052">Dominica</option>
+        <option value="1053">Dominican Republic</option>
+        <option value="1055">East Timor</option>
+        <option value="1056">Ecuador</option>
+        <option value="1057">Egypt</option>
+        <option value="1058">El Salvador</option>
+        <option value="1059">Equatorial Guinea</option>
+        <option value="1060">Eritrea</option>
+        <option value="1061">Estonia</option>
+        <option value="1062">Ethiopia</option>
+        <option value="1301">European Union</option>
+        <option value="1316">Falkland Islands (Malvinas)</option>
+        <option value="1317">Faroe Islands</option>
+        <option value="1064">Fiji</option>
+        <option value="1065">Finland</option>
+        <option value="1066">France</option>
+        <option value="1318">French Guiana</option>
+        <option value="1319">French Polynesia</option>
+        <option value="1068">Gabon</option>
+        <option value="1069">Gambia</option>
+        <option value="1070">Georgia</option>
+        <option value="1071">Germany</option>
+        <option value="1072">Ghana</option>
+        <option value="1320">Gibraltar</option>
+        <option value="1073">Greece</option>
+        <option value="1321">Greenland</option>
+        <option value="1074">Grenada</option>
+        <option value="1322">Guadeloupe</option>
+        <option value="1323">Guam</option>
+        <option value="1075">Guatemala</option>
+        <option value="1324">Guernsey</option>
+        <option value="1076">Guinea</option>
+        <option value="1077">Guinea-Bissau</option>
+        <option value="1078">Guyana</option>
+        <option value="1080">Haiti</option>
+        <option value="1325">Heard Island and McDonald Islands</option>
+        <option value="1213">Holy See (Vatican City State)</option>
+        <option value="1081">Honduras</option>
+        <option value="1300">Hong Kong</option>
+        <option value="1082">Hungary</option>
+        <option value="1084">Iceland</option>
+        <option value="1085">India</option>
+        <option value="1086">Indonesia</option>
+        <option value="1087">Iran, Islamic Republic of</option>
+        <option value="1088">Iraq</option>
+        <option value="1089">Ireland</option>
+        <option value="1326">Isle of Man</option>
+        <option value="1090">Israel</option>
+        <option value="1091">Italy</option>
+        <option value="1093">Jamaica</option>
+        <option value="1094">Japan</option>
+        <option value="1327">Jersey</option>
+        <option value="1095">Jordan</option>
+        <option value="1097">Kazakhstan</option>
+        <option value="1098">Kenya</option>
+        <option value="1099">Kiribati</option>
+        <option value="1100">Korea, Democratic People's Republic of</option>
+        <option value="1101">Korea, Republic of</option>
+        <option value="1102">Kuwait</option>
+        <option value="1103">Kyrgyzstan</option>
+        <option value="1105">Laos</option>
+        <option value="1106">Latvia</option>
+        <option value="1107">Lebanon</option>
+        <option value="1108">Lesotho</option>
+        <option value="1109">Liberia</option>
+        <option value="1110">Libyan Arab Jamahiriya</option>
+        <option value="1111">Liechtenstein</option>
+        <option value="1112">Lithuania</option>
+        <option value="1113">Luxembourg</option>
+        <option value="1328">Macau</option>
+        <option value="1115">Macedonia</option>
+        <option value="1116">Madagascar</option>
+        <option value="1117">Malawi</option>
+        <option value="1118">Malaysia</option>
+        <option value="1119">Maldives</option>
+        <option value="1120">Mali</option>
+        <option value="1121">Malta</option>
+        <option value="1122">Marshall Islands</option>
+        <option value="1329">Martinique</option>
+        <option value="1123">Mauritania</option>
+        <option value="1124">Mauritius</option>
+        <option value="1330">Mayotte</option>
+        <option value="1125">Mexico</option>
+        <option value="1126">Micronesia, Federated States of</option>
+        <option value="1127">Moldova, Republic of</option>
+        <option value="1128">Monaco</option>
+        <option value="1129">Mongolia</option>
+        <option value="1331">Montenegro</option>
+        <option value="1332">Montserrat</option>
+        <option value="1130">Morocco</option>
+        <option value="1131">Mozambique</option>
+        <option value="1132">Myanmar</option>
+        <option value="1134">Namibia</option>
+        <option value="1135">Nauru</option>
+        <option value="1136">Nepal</option>
+        <option value="1137">Netherlands</option>
+        <option value="1333">Netherlands Antilles</option>
+        <option value="1334">New Caledonia</option>
+        <option value="1139">New Zealand</option>
+        <option value="1140">Nicaragua</option>
+        <option value="1141">Niger</option>
+        <option value="1142">Nigeria</option>
+        <option value="1335">Niue</option>
+        <option value="1336">Norfolk Island</option>
+        <option value="1337">Northern Mariana Islands</option>
+        <option value="1143">Norway</option>
+        <option value="1145">Oman</option>
+        <option value="1147">Pakistan</option>
+        <option value="1148">Palau</option>
+        <option value="1338">Palestinian Territory, Occupied</option>
+        <option value="1339">Panama</option>
+        <option value="1149">Panama</option>
+        <option value="1150">Papua New Guinea</option>
+        <option value="1151">Paraguay</option>
+        <option value="1152">Peru</option>
+        <option value="1153">Philippines</option>
+        <option value="1154">Poland</option>
+        <option value="1155">Portugal</option>
+        <option value="1340">Puerto Rico</option>
+        <option value="1157">Qatar</option>
+        <option value="1341">Reunion</option>
+        <option value="1159">Romania</option>
+        <option value="1160">Russian Federation</option>
+        <option value="1161">Rwanda</option>
+        <option value="1168">S?o Tom? and Pr?ncipe</option>
+        <option value="1163">Saint Kitts and Nevis</option>
+        <option value="1164">Saint Lucia</option>
+        <option value="1342">Saint Pierre and Miquelon</option>
+        <option value="1165">Saint Vincent and the Grenadines</option>
+        <option value="1166">Samoa</option>
+        <option value="1167">San Marino</option>
+        <option value="1169">Saudi Arabia</option>
+        <option value="1170">Senegal</option>
+        <option value="1302">Serbia</option>
+        <option value="1171">Serbia and Montenegro</option>
+        <option value="1172">Seychelles</option>
+        <option value="1173">Sierra Leone</option>
+        <option value="1174">Singapore</option>
+        <option value="1175">Slovakia</option>
+        <option value="1176">Slovenia</option>
+        <option value="1177">Solomon Islands</option>
+        <option value="1178">Somalia</option>
+        <option value="1179">South Africa</option>
+        <option value="1181">Spain</option>
+        <option value="1182">Sri Lanka</option>
+        <option value="1183">Sudan</option>
+        <option value="1184">Suriname</option>
+        <option value="1185">Swaziland</option>
+        <option value="1186">Sweden</option>
+        <option value="1187">Switzerland</option>
+        <option value="1188">Syrian Arab Republic</option>
+        <option value="1190">Taiwan</option>
+        <option value="1193">Tajikistan</option>
+        <option value="1194">Tanzania, United Republic of</option>
+        <option value="1195">Thailand</option>
+        <option value="1196">Togo</option>
+        <option value="1343">Tokelau</option>
+        <option value="1197">Tonga</option>
+        <option value="1198">Trinidad and Tobago</option>
+        <option value="1199">Tunisia</option>
+        <option value="1200">Turkey</option>
+        <option value="1201">Turkmenistan</option>
+        <option value="1344">Turks and Caicos Islands</option>
+        <option value="1202">Tuvalu</option>
+        <option value="1204">Uganda</option>
+        <option value="1205">Ukraine</option>
+        <option value="1206">United Arab Emirates</option>
+        <option value="1207">United Kingdom</option>
+        <option value="1208">United States</option>
+        <option value="1345">United States Minor Outlying Islands</option>
+        <option value="1221">Unknown</option>
+        <option value="1349">Unknown country</option>
+        <option value="1209">Uruguay</option>
+        <option value="1210">Uzbekistan</option>
+        <option value="1212">Vanuatu</option>
+        <option value="1214">Venezuela</option>
+        <option value="1215">Vietnam</option>
+        <option value="1346">Virgin Islands, British</option>
+        <option value="1347">Virgin Islands, U.S.</option>
+        <option value="1348">Wallis and Futuna</option>
+        <option value="1217">Yemen</option>
+        <option value="1219">Zambia</option>
+        <option value="1220">Zimbabwe</option>
+			</select>
+
+      <div id="selected">
+        Selected Items go here (These are pre-selected):
+      </div>
+
+		</div>
+
+
+    <div class="orig" style="clear: both">
+
+      <p>
+        Into an input with filter options
+      </p>
+
+      <select id="bcountries" multiple="true">
+        <option value="1184">Suriname</option>
+        <option value="1185">Swaziland</option>
+        <option value="1186">Sweden</option>
+        <option value="1187">Switzerland</option>
+        <option value="1188">Syrian Arab Republic</option>
+        <option value="1190">Taiwan</option>
+        <option value="1193">Tajikistan</option>
+        <option value="1194">Tanzania, United Republic of</option>
+        <option value="1195">Thailand</option>
+        <option value="1196">Togo</option>
+        <option value="1343">Tokelau</option>
+        <option value="1197">Tonga</option>
+        <option value="1198">Trinidad and Tobago</option>
+        <option value="1199">Tunisia</option>
+        <option value="1200">Turkey</option>
+        <option value="1201">Turkmenistan</option>
+        <option value="1344">Turks and Caicos Islands</option>
+        <option value="1202">Tuvalu</option>
+        <option value="1204">Uganda</option>
+        <option value="1205">Ukraine</option>
+        <option value="1206">United Arab Emirates</option>
+        <option value="1207">United Kingdom</option>
+        <option value="1208">United States</option>
+        <option value="1345">United States Minor Outlying Islands</option>
+        <option value="1221">Unknown</option>
+        <option value="1349">Unknown country</option>
+        <option value="1209">Uruguay</option>
+        <option value="1210">Uzbekistan</option>
+        <option value="1212">Vanuatu</option>
+        <option value="1214">Venezuela</option>
+        <option value="1215">Vietnam</option>
+        <option value="1346">Virgin Islands, British</option>
+        <option value="1347">Virgin Islands, U.S.</option>
+        <option value="1348">Wallis and Futuna</option>
+        <option value="1217">Yemen</option>
+        <option value="1219">Zambia</option>
+        <option value="1220">Zimbabwe</option>
+      </select>
+
+      <div id="aselected">
+        Selected Items go here (These are pre-selected):
+      </div>
+
+    </div>
+
+</body>
+
+
+  <script src="jquery-1.7.2.min.js"></script>
+  <script src="../src/aw20.multiselect.js"></script>
+
+  <script>
+    $(document).ready(function() {
+      $('#countries').awmultiselect();
+
+      $('#bcountries').awmultiselect({output: '#aselected'});
+    });
+  </script>
+
+</html>

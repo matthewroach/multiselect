@@ -1,0 +1,24 @@
+body {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	padding: 30px 0 0 60px;
+}
+
+.orig { 
+  float: left;
+  width: 300px;
+}
+
+  #countries-orig {
+    height: 300px;
+  }
+
+.plugin {
+  float: left;
+  margin: 0 0 0 30px ;
+  width: 300px;
+}
+
+#selected {
+	margin: 10px 0;
+}
