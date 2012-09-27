@@ -24,15 +24,15 @@ Have a look at the demo index.html
 
 ## Options
 
-output		the id of class of where you want the selected items to appear (default: #selected)
-selected 	Comma seperated list of pre selected list items
-dropH		Height of the drop list 
+`output`	: 	the id of class of where you want the selected items to appear (default: #selected)  
+`selected` :	Comma seperated list of pre selected list items  
+`dropH`	:	Height of the drop list 
 
 ## Testing
 
 Tested in:
 
-Firefox 10            	  WORKING
-Safari 5.10           	  WORKING
-Chrome 17		  WORKING
+Firefox 10            	  WORKING  
+Safari 5.10           	  WORKING  
+Chrome 17		  WORKING  
 Internet Explorer 7/8/9   WORKING
